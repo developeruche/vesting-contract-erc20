@@ -1,13 +1,20 @@
-# Sample Hardhat Project
+# ERC20 vesting contract
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
+This project implements a contract to handle team vesting for DEFI projects
 
-Try running some of the following tasks:
+How to use this project
 
 ```shell
-npx hardhat help
-npx hardhat test
-GAS_REPORT=true npx hardhat test
-npx hardhat node
-npx hardhat run scripts/deploy.ts
+npm i
 ```
+
+Write your test script for the contract (first confirm if a test has not been writen by me)
+```shell
+npm hardhat test
+``
+
+Write a deploy script in the deplot.ts file and update the hardhat config file and deploy! :)
+
+```shell
+npx hardhat run scripts/deploy.ts
+``
